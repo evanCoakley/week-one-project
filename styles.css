@@ -1,0 +1,16 @@
+#topnav {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+#topnav img {}
+
+#topnav a {
+    display: flex;
+    align-items: space-around;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+}
