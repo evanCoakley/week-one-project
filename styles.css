@@ -1,293 +1,357 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #F2F1E8;
-    font-family: 'Merriweather', serif;
-    margin: 0 auto;
-}
-
-.wrapper {
-    margin: 0;
-    padding: 0;
-}
-
-.logo1 {
-    background-image: url("./images/bent-creek-logo.png");
-    background-size: cover;
-    width: 45px;
-    height: 45px;
-    margin-top: 12px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    /* margin-right: 50px; */
-    display: flex;
-    align-items: flex-start;
-}
-
-#topnav {
-    background-color: #ffffff;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    flex: 1;
-}
-
-.nav-links a {
-    padding: 0 70px 0 20px;
-    font-size: 18px;
-    color: #2B2F26;
-}
-
-h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 3em;
-    text-align: center;
-    font-weight: normal;
-}
-
-h2 {
-    font-family: 'Merriweather', serif;
-    font-size: 2em;
-    text-align: center;
-    font-weight: lighter;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.image1 {
-    background-image: url("./images/product-1.jpg");
-    height: 368px;
-    width: 48%;
-    flex-grow: 3;
-    background-size: cover;
-    background-position: center;
-    margin: 8px;
-    padding-top: 280px;
-}
-
-.image2 {
-    background-image: url("./images/product-2.jpg");
-    height: 368px;
-    width: 16%;
-    flex-grow: 1;
-    background-size: cover;
-    background-position: center;
-    margin: 8px;
-    padding-top: 280px;
-}
-
-.image3 {
-    background-image: url("./images/product-3.jpg");
-    height: 368px;
-    width: 16%;
-    flex-grow: 1;
-    background-size: cover;
-    background-position: center;
-    margin: 8px;
-    padding-top: 280px;
-}
-
-.image4 {
-    background-image: url("./images/product-4.jpg");
-    height: 242px;
-    width: 16%;
-    flex-grow: 1;
-    background-size: cover;
-    margin: 8px;
-    padding-top: 153px;
-}
-
-.image5 {
-    background-image: url("./images/product-5.jpg");
-    height: 242px;
-    width: 16%;
-    flex-grow: 1;
-    background-size: cover;
-    margin: 8px;
-    padding-top: 153px;
-}
-
-.image6 {
-    background-image: url("./images/product-6.jpg");
-    height: 242px;
-    width: 32%;
-    flex-grow: 2;
-    background-size: cover;
-    margin: 8px;
-    padding-top: 153px;
-}
-
-.image7 {
-    background-image: url("./images/product-7.jpg");
-    height: 242px;
-    width: 16%;
-    flex-grow: 1;
-    background-size: cover;
-    margin: 8px;
-    padding-top: 153px;
-}
-
-footer {
-    background-color: #2B2F26;
-    height: 100px;
-    padding-top: 20px;
-    padding-left: 25px;
-}
-
-span {
-    margin-bottom: 0;
-    color: #F2F1E8;
-    font-family: 'Merriweather', serif;
-    font-size: 19px;
-    font-weight: lighter;
-}
-
-p {
-    display: inline-block;
-    background-color: #2B2F26;
-    height: 53px;
-    padding-top: 13px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: #F2F1E8;
-    font-family: 'Merriweather', serif;
-    font-size: 19px;
-}
-
-
-/**************************************************************************************************************/
-
-
-/*ABOUT PAGE*/
-
-.opener {
-    display: flex;
-    margin: 5rem 19rem 5rem 19rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-}
-
-.headline {
-    text-align: center;
-    font-size: 3.5rem;
-    padding: 3rem;
-    font-weight: 350;
-    margin-top: 2rem;
-}
-
-.dedication {
-    margin-bottom: 2rem;
-    line-height: 2.5rem;
-}
-
-.mission-statement {
-    font-style: italic;
-    border-left: 2px solid #968772;
-    padding: 0rem .2rem 0rem .2rem;
-    line-height: 2.5rem;
-}
-
-.birdhouse {
-    height: 8rem;
-    width: 12rem;
-    float: left;
-}
-
-.leader {
-    font-size: 2rem;
-    font-weight: 200;
-    width: 100%;
-    padding: 1rem;
-    line-height: 2.5rem;
-}
-
-.history {
-    line-height: 2.5rem;
-}
-
-.midimage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    background-image: url("./images/background-3.jpg");
-    height: 60vh;
-}
-
-.roomToGrow {
-    font-size: 5rem;
-    color: #F2F1E8;
-}
-
-.closing {
-    display: flex;
-    margin: 1rem 10rem 0rem 20rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.facility {
-    max-width: 81%;
-    line-height: 2.5rem;
-    height: auto;
-    background-color: #F2F1E8;
-    color: #131511;
-}
-
-.shelf {
-    height: 7rem;
-}
-
-table {
-    border-collapse: collapse;
-    margin-bottom: 5rem;
-}
-
-tr, td {
-    border-style: solid;
-    border-width: 1px;
-    padding: 1rem;
-}
-
-.th {
-    text-align: center;
-}
-
-.darker {
-    background-color: #f9d3b3;
-}
-
-aside {
-    font-size: .8rem;
-    width: 18%;
-    padding: 1rem;
-    line-height: 1.5rem;
-}
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer for Index and About~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-footer {
-    padding: 2.3rem;
-    color: #F2F1E8;
-    background-color: #2B2F26;
-    width: 100%;
-}
+            * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #F2F1E8;
+            font-family: 'Merriweather', serif;
+            margin: 0 auto;
+        }
+        
+        .wrapper {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo1 {
+            background-image: url("./images/bent-creek-logo.png");
+            background-size: cover;
+            width: 45px;
+            height: 45px;
+            margin-top: 12px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            /* margin-right: 50px; */
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        #topnav {
+            background-color: #ffffff;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            flex: 1;
+        }
+        
+        .nav-links {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            flex: 1;
+        }
+        
+        .nav-links a {
+            padding: 0 70px 0 20px;
+            font-size: 18px;
+            color: #2B2F26;
+        }
+        
+        h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 3em;
+            text-align: center;
+            font-weight: normal;
+        }
+        
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 2em;
+            text-align: center;
+            font-weight: lighter;
+        }
+        
+        section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .image1 {
+            background-image: url("./images/product-1.jpg");
+            height: 368px;
+            width: 48%;
+            flex-grow: 3;
+            background-size: cover;
+            background-position: center;
+            margin: 8px;
+            padding-top: 280px;
+        }
+        
+        .image2 {
+            background-image: url("./images/product-2.jpg");
+            height: 368px;
+            width: 16%;
+            flex-grow: 1;
+            background-size: cover;
+            background-position: center;
+            margin: 8px;
+            padding-top: 280px;
+        }
+        
+        .image3 {
+            background-image: url("./images/product-3.jpg");
+            height: 368px;
+            width: 16%;
+            flex-grow: 1;
+            background-size: cover;
+            background-position: center;
+            margin: 8px;
+            padding-top: 280px;
+        }
+        
+        .image4 {
+            background-image: url("./images/product-4.jpg");
+            height: 242px;
+            width: 16%;
+            flex-grow: 1;
+            background-size: cover;
+            margin: 8px;
+            padding-top: 153px;
+        }
+        
+        .image5 {
+            background-image: url("./images/product-5.jpg");
+            height: 242px;
+            width: 16%;
+            flex-grow: 1;
+            background-size: cover;
+            margin: 8px;
+            padding-top: 153px;
+        }
+        
+        .image6 {
+            background-image: url("./images/product-6.jpg");
+            height: 242px;
+            width: 32%;
+            flex-grow: 2;
+            background-size: cover;
+            margin: 8px;
+            padding-top: 153px;
+        }
+        
+        .image7 {
+            background-image: url("./images/product-7.jpg");
+            height: 242px;
+            width: 16%;
+            flex-grow: 1;
+            background-size: cover;
+            margin: 8px;
+            padding-top: 153px;
+        }
+        
+        footer {
+            background-color: #2B2F26;
+            height: 100px;
+            padding-top: 20px;
+            padding-left: 25px;
+        }
+        
+        span {
+            margin-bottom: 0;
+            color: #F2F1E8;
+            font-family: 'Merriweather', serif;
+            font-size: 19px;
+            font-weight: lighter;
+        }
+        
+        p {
+            display: inline-block;
+            background-color: #2B2F26;
+            height: 53px;
+            padding-top: 13px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: #F2F1E8;
+            font-family: 'Merriweather', serif;
+            font-size: 19px;
+        }
+        /**************************************************************************************************************/
+        /*ABOUT PAGE*/
+        
+        .opener {
+            display: flex;
+            margin: 5rem 19rem 5rem 19rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        
+        .headline {
+            text-align: center;
+            font-size: 3.5rem;
+            padding: 3rem;
+            font-weight: 350;
+            margin-top: 2rem;
+        }
+        
+        .dedication {
+            margin-bottom: 2rem;
+            line-height: 2.5rem;
+        }
+        
+        .mission-statement {
+            font-style: italic;
+            border-left: 2px solid #968772;
+            padding: 0rem .2rem 0rem .2rem;
+            line-height: 2.5rem;
+        }
+        
+        .birdhouse {
+            height: 8rem;
+            width: 12rem;
+            float: left;
+        }
+        
+        .leader {
+            font-size: 2rem;
+            font-weight: 200;
+            width: 100%;
+            padding: 1rem;
+            line-height: 2.5rem;
+        }
+        
+        .history {
+            line-height: 2.5rem;
+        }
+        
+        .midimage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            background-image: url("./images/background-3.jpg");
+            height: 60vh;
+        }
+        
+        .roomToGrow {
+            font-size: 5rem;
+            color: #F2F1E8;
+        }
+        
+        .closing {
+            display: flex;
+            margin: 1rem 10rem 0rem 20rem;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .facility {
+            max-width: 81%;
+            line-height: 2.5rem;
+            height: auto;
+            background-color: #F2F1E8;
+            color: #131511;
+        }
+        
+        .shelf {
+            height: 7rem;
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin-bottom: 5rem;
+        }
+        
+        tr, td {
+            border-style: solid;
+            border-width: 1px;
+            padding: 1rem;
+        }
+        
+        .th {
+            text-align: center;
+        }
+        
+        .darker {
+            background-color: #f9d3b3;
+        }
+        
+        aside {
+            font-size: .8rem;
+            width: 18%;
+            padding: 1rem;
+            line-height: 1.5rem;
+        }
+        /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer for Home and About~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+        
+        footer {
+            padding: 2.3rem;
+            color: #F2F1E8;
+            background-color: #2B2F26;
+            width: 100%;
+        }
+        /*****************************Newsletter**************************************************/
+        
+        .newsletter-section {
+            display: flex;
+            min-height: 100vh;
+            background-image: url("./images/background-2.jpg");
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .signUpBox {
+            display: flex;
+            flex-direction: column;
+            height: 60vh;
+            width: 50vw;
+            background-color: #FFFFFF;
+            justify-content: space-around;
+            padding: 1rem;
+            align-items: center;
+        }
+        
+        .signup {
+            font-size: 1.7rem;
+            font-weight: 200;
+        }
+        
+        .offers {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        
+        #nameInput {
+            font-size: 1.3rem;
+            color: #968772;
+            border-width: 0px 0px 2px 0px;
+            border-color: #968772;
+            margin: 1rem;
+            width: 100%;
+        }
+        
+        #nameInput:focus {
+            border-bottom-color: #967343;
+        }
+        
+        #emailInput {
+            font-size: 1.3rem;
+            color: #968772;
+            border-width: 0px 0px 2px 0px;
+            border-color: #968772;
+            margin: 1rem;
+            width: 100%;
+        }
+        
+        #emailInput:focus {
+            border-bottom-color: #967343;
+        }
+        
+        #signupButton {
+            background-color: #968772;
+            color: #F2F1E8;
+            font-size: 1.2rem;
+            border-style: none;
+            padding: 1.3rem 3rem 1.3rem 3rem;
+            margin: 1rem;
+            max-width: 20rem;
+        }
+        
+        #signupButton:hover {
+            color: #FFFFFF;
+            background-color: #967343;
